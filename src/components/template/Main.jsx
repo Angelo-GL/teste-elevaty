@@ -4,7 +4,7 @@ import Heade from './Heade'
 
 export default props => 
     <React.Fragment> 
-        <Heade/>
+        <Heade {...props}/>
         <main>
             Conteúdo
         </main>

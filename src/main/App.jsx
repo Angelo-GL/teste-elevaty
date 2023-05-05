@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css'
 import './App.css';
 
 import Nav from '../components/template/Nav';
@@ -10,7 +12,7 @@ export default App =>
   <div className="app">
     <Logo></Logo>
     <Nav></Nav>
-    <Main></Main>
+    <Main icon="home" title="Início" subtitle="Inserir subtítulo"/>
     <Footer></Footer>
   </div>
 
